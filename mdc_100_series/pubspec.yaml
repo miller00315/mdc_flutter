@@ -22,7 +22,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/diamond.png
-    # TODO: Add slanted menu asset (104)
+    - assets/slanted_menu.png
     - packages/shrine_images/0-0.jpg
     - packages/shrine_images/1-0.jpg
     - packages/shrine_images/2-0.jpg
@@ -61,3 +61,9 @@ flutter:
     - packages/shrine_images/35-0.jpg
     - packages/shrine_images/36-0.jpg
     - packages/shrine_images/37-0.jpg
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: fonts/Rubik-Regular.ttf
+        - asset: fonts/Rubik-Medium.ttf
+          weight: 500
